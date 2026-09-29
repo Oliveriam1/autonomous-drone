@@ -1,107 +1,25 @@
+# Unreal Engine generated files
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/.vs/
+**/*.sln
 **/*.VC.db
-**/*.opensdf
-**/*.sdf
-**/*.xcodeproj/
-**/*.xcworkspace/
-# --- C++ build products and coverage ---
-**/cmake-build-*/
-**/CMakeFiles/
-**/CMakeCache.txt
-**/compile_commands.json
-**/Makefile
-**/Testing/
-**/*.o
-**/*.obj
-**/*.a
-**/*.lib
-**/*.so
-**/*.dylib
-**/*.dll
-**/*.exe
-**/*.pdb
-**/*.ilk
-**/*.gcda
-**/*.gcno
-**/*.gcov
-# --- Python environments, caches, tests, packaging ---
+# Zed editor local settings
+.zed/
+# Python virtual environments and cache
 **/.venv/
 **/venv/
-**/env/
-**/ENV/
 **/__pycache__/
 **/*.py[cod]
-**/*$py.class
 **/.pytest_cache/
-**/.mypy_cache/
-**/.ruff_cache/
-**/.pyre/
-**/.tox/
-**/.nox/
-**/.coverage
-**/.coverage.*
-**/htmlcov/
-**/coverage.xml
-**/dist/
-**/*.egg-info/
-**/.eggs/
-**/pip-wheel-metadata/
-**/.ipynb_checkpoints/
-# --- Logs, recordings, telemetry and generated data ---
-*.log
-logs/
-**/logs/
-telemetry/
-**/telemetry/
-recordings/
-**/recordings/
-captures/
-**/captures/
-datasets/generated/
-**/datasets/generated/
-# --- Local databases and detection/identity data ---
-# Store schema, migrations, and safe seed data in Git; never store real people data.
-*.db
-*.db-journal
-*.db-shm
-*.db-wal
-*.sqlite
-*.sqlite3
-*.sqlite-journal
-*.sqlite-shm
-*.sqlite-wal
-database/local/
-**/database/local/
-data/local/
-**/data/local/
-data/faces/
-**/data/faces/
-data/embeddings/
-**/data/embeddings/
-# --- Secrets and per-machine configuration ---
-.env
-.env.*
-!.env.example
-!.env.template
-*.pem
-*.key
-*.p12
-*.pfx
-*.crt
-secrets/
-**/secrets/
-credentials/
-**/credentials/
-# --- Hardware design: temporary/recovery/export output ---
-# Keep KiCad source files (*.kicad_pro, *.kicad_sch, *.kicad_pcb) and intentional CAD exports.
-**/*-backups/
-**/*-backup/
-**/backup/
-**/backups/
-**/*.kicad_prl
-**/*.kicad_pro-bak
-**/*.kicad_sch-bak
-**/*.kicad_pcb-bak
-**/*.lck
-**/*.kicad_lock
-hardware/cad/generated/
-hardware/pcb/generated/
+# C++ build artifacts
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake-build-*/
+**/*.o
+**/*.obj
+**/*.exe
+**/*.dll
+**/*.pdb
