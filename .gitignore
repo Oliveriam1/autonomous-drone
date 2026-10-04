@@ -3,9 +3,35 @@
 **/Intermediate/
 **/Saved/
 **/DerivedDataCache/
+**/FileOpenOrder/
+
+# Unreal-generated IDE projects and local editor state
 **/.vs/
+simulation/unreal/**/.vscode/
+simulation/unreal/**/.idea/
+simulation/unreal/**/*.code-workspace
 **/*.sln
+**/*.suo
+**/*.sdf
+**/*.opensdf
 **/*.VC.db
+**/*.VC.db-*
+**/*.VC.opendb
+**/*.vcxproj
+**/*.vcxproj.filters
+**/*.vcxproj.user
+**/*.xcodeproj/
+**/*.xcworkspace/
+
+# Unreal-generated asset backups and local collections
+simulation/unreal/**/Content/**/*.uasset.bak
+simulation/unreal/**/Content/**/*.umap.bak
+simulation/unreal/**/Content/Developers/
+simulation/unreal/**/Content/Collections/
+
+# Keep Config, Content assets, Source, .uproject and .uplugin files.
+# Build may contain required icons and platform resources; do not ignore it wholesale.
+
 # Zed editor local settings
 .zed/
 # Python virtual environments and cache
